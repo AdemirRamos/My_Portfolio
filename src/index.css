@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 code {
@@ -15,7 +15,7 @@ code {
 }
 
 ::selection {
-	background-color: #D8A48F;
-	color: #43B929;
-	text-shadow: 1px 1px 1px black;
+  background-color: #D8A48F;
+  color: #43B929;
+  text-shadow: 1px 1px 1px black;
 }

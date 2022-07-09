@@ -22,7 +22,7 @@ export const Title = styled.h1`
 
 export const Bar = styled.p`
 	border-top: 1px solid white;
-	width: 95vw;
+	width: 97vw;
 	padding-bottom: 4px;
 `;
 
@@ -35,7 +35,7 @@ export const Header = styled.header`
 	div {
 		position: absolute;
 		right: 25px;
-		top: 91px;
+		top: 93px;
 
 		a {
 			color: #bbb;
@@ -60,7 +60,7 @@ export const Header = styled.header`
 
 export const Body = styled.main`
 	background-color: #D741A7;
-	height: 92vh;
+	height: 81vh;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
@@ -72,7 +72,7 @@ export const Body = styled.main`
 		height: 150px;
 		width: 400px;
 		text-align: center;
-		margin-right: 380px;
+		margin-right: 200px;
 		margin-top: 160px;
 	}
 
@@ -80,7 +80,8 @@ export const Body = styled.main`
 		height: 200px;
 		width: 200px;
 		border-radius: 50%;
-		margin-top: 140px;
+		margin-top: 120px;
+		border: 5px solid black;
 
 		&:hover {
 			cursor: pointer;
