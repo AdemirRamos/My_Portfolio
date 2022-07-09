@@ -18,7 +18,7 @@ export default function Portfolio() {
 
         <Bar/>
 
-        <a href="https://github.com/AdemirRamos" title="Click here to check my GitHub Profile!" target="_blank">GitHub</a>
+        <a href="https://github.com/AdemirRamos" title="Click here to check my GitHub Profile!" target="_blank" rel="noreferrer">GitHub</a>
 
         <div>
 
