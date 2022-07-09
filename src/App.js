@@ -1,3 +1,4 @@
+import './App.css'
 import React, {useState} from 'react'
 import {Title} from './Styles/main'
 import {Bar} from './Styles/main'
@@ -5,9 +6,11 @@ import {Header} from './Styles/main'
 import {Body} from './Styles/main'
 import Image from './Images/red.png'
 
+/*Transform: https://www.w3schools.com/cssref/css3_pr_transform.asp*/
+
 export default function Portfolio() {
 
-  const [number, set_number] = useState(0)
+  const [add_class, set_class] = useState('')
 
   return(
     <>
@@ -18,17 +21,13 @@ export default function Portfolio() {
 
         <Bar/>
 
-        <a href="https://github.com/AdemirRamos" title="Click here to check my GitHub Profile!" target="_blank" rel="noreferrer">
-
-          GitHub
-
-        </a>
+        <a href="https://github.com/AdemirRamos" title="Click here to check my GitHub Profile!" target="_blank" rel="noreferrer">GitHub</a>
 
         <div>
 
-          <a href="https://github.com/AdemirRamos" title="Click here to see my projects.">Projects</a>
-          <a href="https://github.com/AdemirRamos" title="Click here to see my repositories.">Repositories</a>
-          <a href="https://github.com/AdemirRamos" title="Click here to know a little bit more about me.">About Me</a>
+          <a href="#" title="Click here to see my projects.">Projects</a>
+          <a href="#" title="Click here to see my repositories.">Repositories</a>
+          <a href="#" title="Click here to know a little bit more about me.">About Me</a>
 
         </div>
 
@@ -36,9 +35,7 @@ export default function Portfolio() {
 
       <Body>
 
-        <p onClick={() => set_number(number + 10)}>
-
-          {number} <br/>
+        <p>
 
           Hello! My name is Ademir Ramos and this is a little portfolio I'm constructing
           to tell and show you a little bit more about myself. <br/>
@@ -46,7 +43,7 @@ export default function Portfolio() {
 
         </p>
 
-        <img src={Image} alt="Logo from 'Songs For The Deaf' from Queens of the Stone Age."/>
+        <img src={Image} alt="Logo from 'Songs For The Deaf' from Queens of the Stone Age." title="Click here! - Image: Songs For The Deaf - Queens of the Stone Age." onClick={() => set_class('image_animation')} className={add_class}/>
 
       </Body>
 
