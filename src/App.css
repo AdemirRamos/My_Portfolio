@@ -18,6 +18,18 @@
   animation-iteration-count: infinite;
 }
 
+.icon_pre-animation {
+  opacity: 0;
+  transform: translate(0px, -15px);
+  transition: all 1s ease-out;
+}
+
+.icon_animation {
+  opacity: 1;
+  transform: translate(0px, 68px);
+  transition: all 1s ease-out;
+}
+
 /*End of vents and animations.*/
 
 .App {
