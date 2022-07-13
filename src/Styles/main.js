@@ -22,7 +22,7 @@ export const Title = styled.h1`
 
 export const Bar = styled.p`
 	border-top: 1px solid white;
-	width: 96vw;
+	width: 96.5vw;
 	padding-bottom: 4px;
 `;
 
