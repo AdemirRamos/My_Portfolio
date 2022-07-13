@@ -1,5 +1,14 @@
 /*Begin of events and animations:*/
 
+:root {
+  --blue: #2274A5;
+  --purple: #D741A7;
+  --green: #43B929;
+  --orange: #F3B61F;
+  --beige: #D8A48F;
+
+}
+
 @keyframes image {
   0% {
     transform: rotateY(0deg);
@@ -10,7 +19,6 @@
   }
 }
 
-
 .image_animation {
   animation-name: image;
   animation-duration: 4s;
@@ -18,20 +26,202 @@
   animation-iteration-count: infinite;
 }
 
+.animation-start {
+  opacity: 0;
+  transform: translate(55px, 125px);
+}
+
 .icon_pre-animation {
   opacity: 0;
-  transform: translate(0px, -15px);
+  transform: translate(55px, 125px);
   transition: all 1s ease-out;
 }
 
 .icon_animation {
   opacity: 1;
-  transform: translate(0px, 68px);
+  transform: translate(0px, 125px);
+  transition: all 1s ease-out;
+}
+
+.project-image {
+  position: absolute;
+  top: 230px;
+  left: 70px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.project-image:hover {
+  cursor: pointer;
+}
+
+.project-image2 {
+  position: absolute;
+  top: 1370px;
+  left: 70px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.project-image2:hover {
+  cursor: pointer;
+}
+
+.project-image3 {
+  position: absolute;
+  top: 2490px;
+  left: 70px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.project-image3:hover {
+  cursor: pointer;
+}
+
+.project-image4 {
+  position: absolute;
+  top: 3620px;
+  left: 70px;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.project-image4:hover {
+  cursor: pointer;
+}
+
+.parallax {
+  background-image: url('./Images/p1.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 5px 5px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-shadow: 2px 2px 2px black;
+}
+
+.parallax > span {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  transition: all 1s ease-out;
+}
+
+.parallax > span:hover {
+  background-color: black;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.parallax2 {
+  background-image: url('./Images/p2.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 5px 5px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-shadow: 2px 2px 2px black;
+}
+
+.parallax2 > span {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  transition: all 1s ease-out;
+}
+
+.parallax2 > span:hover {
+  background-color: black;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.parallax3 {
+  background-image: url('./Images/p3.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 5px 5px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-shadow: 2px 2px 2px black;
+}
+
+.parallax3 > span {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  transition: all 1s ease-out;
+}
+
+.parallax3 > span:hover {
+  background-color: black;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.parallax4 {
+  background-image: url('./Images/p4.png');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: inset 5px 5px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  text-shadow: 2px 2px 2px black;
+}
+
+.parallax4 > span {
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  transition: all 1s ease-out;
+}
+
+.parallax4 > span:hover {
+  background-color: black;
+  cursor: pointer;
   transition: all 1s ease-out;
 }
 
 /*End of vents and animations.*/
 
+/*
 .App {
   text-align: center;
 }
@@ -70,3 +260,4 @@
     transform: rotate(360deg);
   }
 }
+*/

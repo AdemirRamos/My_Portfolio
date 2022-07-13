@@ -22,13 +22,13 @@ export const Title = styled.h1`
 
 export const Bar = styled.p`
 	border-top: 1px solid white;
-	width: 97vw;
+	width: 96vw;
 	padding-bottom: 4px;
 `;
 
 export const Header = styled.header`
 	background-color: black;
-	width: 99vw;
+	width: 97.8vw;
 	height: 90px;
 	padding: 15px;
 
@@ -45,6 +45,10 @@ export const Header = styled.header`
 				color: white;
 			}
 		}
+	}
+
+	.head {
+		background-color: red;
 	}
 
 	a {
