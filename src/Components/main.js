@@ -7,7 +7,7 @@ import {Header} from '../Styles/main'
 import {Body} from '../Styles/main'
 import Image from '../Images/red.png'
 
-//import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 /*Transform: https://www.w3schools.com/cssref/css3_pr_transform.asp*/
 
@@ -28,7 +28,7 @@ export default function Main() {
 
         <div>
 
-          <a href="https:github.com/AdemirRamos" title="Click here to see my projects.">Projects</a>
+          <Link to="/projects" title="Click here to see my projects.">Projects</Link>
           <a href="https://github.com/AdemirRamos" title="Click here to know a little bit more about me." target="_blank" rel="noreferrer">About Me</a>
 
         </div>
