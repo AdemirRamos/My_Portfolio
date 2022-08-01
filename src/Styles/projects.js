@@ -78,7 +78,7 @@ export const Project = styled.main`
 	}
 
 	.extra-margin2 {
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 
 	.text-adjustment3 {

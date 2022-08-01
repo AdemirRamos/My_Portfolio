@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom'
 import '../App.css'
 
 import {Title} from '../Styles/main'
@@ -43,7 +44,7 @@ export default function Projects() {
 
         <Bar/>
 
-        <a href="https:github.com/AdemiRamos" title="Click here to return to the main page.">Main Page</a>
+        <Link to="/" title="Click here to return to the main page.">Main Page</Link>
 
         <div>
 
