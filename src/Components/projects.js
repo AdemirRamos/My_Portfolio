@@ -44,7 +44,7 @@ export default function Projects() {
 
         <Bar/>
 
-        <Link to="/main" title="Click here to return to the main page.">Main Page</Link>
+        <Link to="/" title="Click here to return to the main page.">Main Page</Link>
 
         <div>
 
