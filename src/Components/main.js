@@ -28,7 +28,7 @@ export default function Main() {
 
         <div>
 
-          <Link to="/projects" title="Click here to see my projects.">Projects</Link>
+          <Link to="/My_Portfolio/projects" title="Click here to see my projects.">Projects</Link>
           <a href="https://github.com/AdemirRamos" title="Click here to know a little bit more about me." target="_blank" rel="noreferrer">About Me</a>
 
         </div>
