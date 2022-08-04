@@ -19,7 +19,7 @@ export const Title = styled.h1`
 	width: 96vw;
 	margin: -5px 0 0 0;
 
-	@media screen and (min-width: 300px) and (max-width: 600px) {
+	@media screen and (min-width: 300px) and (max-width: 500px) {
 		text-align: center;
 		margin-left: 20px;
 	}
@@ -34,7 +34,7 @@ export const Bar = styled.p`
 		width: 108vw;
 	}
 
-	@media screen and (min-width: 601px) and (max-width: 830px) {
+	@media screen and (min-width: 501px) and (max-width: 600px) {
 		width: 93vw;
 	}
 `;
@@ -46,12 +46,12 @@ export const Header = styled.header`
 	padding: 15px;
 
 	.git {
-		@media screen and (min-width: 300px) and (max-width: 600px) {
+		@media screen and (min-width: 300px) and (max-width: 500px) {
 			font-size: 22px;
 			margin-left: 121px;
 		}
 
-		@media screen and (min-width: 601px) and (max-width: 830px) {
+		@media screen and (min-width: 501px) and (max-width: 830px) {
 			font-size: 21px;
 			position: absolute;
 			top: 85px;
@@ -59,7 +59,7 @@ export const Header = styled.header`
 		}
 	}
 
-	@media screen and (min-width: 300px) and (max-width: 600px) {
+	@media screen and (min-width: 300px) and (max-width: 500px) {
 		height: 165px;
 	}
 
@@ -68,11 +68,11 @@ export const Header = styled.header`
 		right: 25px;
 		top: 93px;
 
-		@media screen and (min-width: 300px) and (max-width: 600px) {
+		@media screen and (min-width: 300px) and (max-width: 500px) {
 			top: 123px;
 		}
 
-		@media screen and (min-width: 601px) and (max-width: 830px) {
+		@media screen and (min-width: 501px) and (max-width: 830px) {
 			top: 85px;
 		}
 
@@ -84,14 +84,14 @@ export const Header = styled.header`
 				color: white;
 			}
 
-			@media screen and (min-width: 300px) and (max-width: 600px) {
+			@media screen and (min-width: 300px) and (max-width: 500px) {
 				display: block;
 				font-size: 22px;
 				margin-right: 48px;
 				text-align: center;
 			}
 
-			@media screen and (min-width: 601px) and (max-width: 830px) {
+			@media screen and (min-width: 501px) and (max-width: 830px) {
 				font-size: 21px;
 			}
 		}
@@ -107,7 +107,7 @@ export const Header = styled.header`
 		}
 	}
 
-	@media screen and (min-width: 300px) and (max-width: 600px) {
+	@media screen and (min-width: 300px) and (max-width: 500px) {
 		width: 107.5vw;
 	}
 `;
@@ -129,8 +129,7 @@ export const Body = styled.main`
 		margin-right: 200px;
 		margin-top: 160px;
 
-		@media screen and (min-width: 300px) and (max-width: 600px) {
-			width: 300px;
+		@media screen and (min-width: 300px) and (max-width: 500px) {
 			margin-left: 28px;
 			margin-bottom: 60px;
 			margin-top: -35px;
@@ -138,11 +137,12 @@ export const Body = styled.main`
 			text-shadow: 2px 2px 2px black;
 		}
 
-		@media screen and (min-width: 601px) and (max-width: 830px) {
+		@media screen and (min-width: 501px) and (max-width: 830px) {
 			padding-left: 50px;
 			text-shadow: 2px 2px 2px black;
 			margin-right: 125px;
 		}
+
 	}
 
 	img {
@@ -156,17 +156,21 @@ export const Body = styled.main`
 			cursor: pointer;
 		}
 
-		@media screen and (min-width: 300px) and (max-width: 600px) {
+		@media screen and (min-width: 300px) and (max-width: 500px) {
 			margin-left: 83px;
 			margin-bottom: 5px;
 		}
 
-		@media screen and (min-width: 601px) and (max-width: 830px) {
+		@media screen and (min-width: 501px) and (max-width: 773px) {
+			
+		}
+
+		@media screen and (min-width: 501px) and (max-width: 830px) {
 			margin-right: 53px;
 		}
 	}
 
-	@media screen and (min-width: 300px) and (max-width: 600px) {
+	@media screen and (min-width: 300px) and (max-width: 500px) {
 		flex-direction: column;
 		width: 117.5vw;
 		height: 110vh;
