@@ -24,7 +24,7 @@ export default function Main() {
 
         <Bar/>
 
-        <a href="https://github.com/AdemirRamos" title="Click here to check my GitHub Profile!" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://github.com/AdemirRamos" title="Click here to check my GitHub Profile!" target="_blank" rel="noreferrer" className="git">GitHub</a>
 
         <div>
 

@@ -18,12 +18,21 @@ export const Title = styled.h1`
 	color: white;
 	width: 96vw;
 	margin: -5px 0 0 0;
+
+	@media screen and (min-width: 300px) and (max-width: 600px) {
+		text-align: center;
+		margin-left: 20px;
+	}
 `;
 
 export const Bar = styled.p`
 	border-top: 1px solid white;
 	width: 96.5vw;
 	padding-bottom: 4px;
+
+	@media screen and (min-width: 300px) and (max-width: 600px) {
+		width: 108vw;
+	}
 `;
 
 export const Header = styled.header`
@@ -32,10 +41,25 @@ export const Header = styled.header`
 	height: 90px;
 	padding: 15px;
 
+	.git {
+		@media screen and (min-width: 300px) and (max-width: 600px) {
+			font-size: 22px;
+			margin-left: 121px;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 600px) {
+		height: 165px;
+	}
+
 	div {
 		position: absolute;
 		right: 25px;
 		top: 93px;
+
+		@media screen and (min-width: 300px) and (max-width: 600px) {
+			top: 123px;
+		}
 
 		a {
 			color: #bbb;
@@ -44,11 +68,14 @@ export const Header = styled.header`
 			&:hover {
 				color: white;
 			}
-		}
-	}
 
-	.head {
-		background-color: red;
+			@media screen and (min-width: 300px) and (max-width: 600px) {
+				display: block;
+				font-size: 22px;
+				margin-right: 48px;
+				text-align: center;
+			}
+		}
 	}
 
 	a {
@@ -59,6 +86,10 @@ export const Header = styled.header`
 		&:hover {
 			color: white;
 		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 600px) {
+		width: 108vw;
 	}
 `;
 
@@ -78,6 +109,15 @@ export const Body = styled.main`
 		text-align: center;
 		margin-right: 200px;
 		margin-top: 160px;
+
+		@media screen and (min-width: 300px) and (max-width: 600px) {
+			width: 300px;
+			margin-left: 28px;
+			margin-bottom: 60px;
+			margin-top: -35px;
+			font-size: 21px;
+			text-shadow: 2px 2px 2px black;
+		}
 	}
 
 	img {
@@ -90,5 +130,16 @@ export const Body = styled.main`
 		&:hover {
 			cursor: pointer;
 		}
+
+		@media screen and (min-width: 300px) and (max-width: 600px) {
+			margin-left: 83px;
+			margin-bottom: 5px;
+		}
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 600px) {
+		flex-direction: column;
+		width: 117.5vw;
+		height: 110vh;
 	}
 `;

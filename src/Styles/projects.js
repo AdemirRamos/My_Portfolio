@@ -86,7 +86,7 @@ export const Project = styled.main`
 	}
 
 	.extra-margin3 {
-		margin-top: 45px;
+		margin-top: 40px;
 	}
 
 	span {
