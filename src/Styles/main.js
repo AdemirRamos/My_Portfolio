@@ -153,6 +153,7 @@ export const Body = styled.main`
 		margin-top: 160px;
 
 		@media screen and (min-width: 300px) and (max-width: 449px) {
+			width: 280px;
 			margin-top: -20px;
 			margin-bottom: 30px;
 			margin-right: auto;
