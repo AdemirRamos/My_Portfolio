@@ -12,32 +12,20 @@ import styled from 'styled-components'
 
 */
 
-export const Title = styled.h1`
-	background-color: black;
-	font-family: 'Honey Script', 'Honey Script Bold', cursive;
-	color: white;
-	width: 96vw;
-	margin: -5px 0 0 0;
-
-	@media screen and (min-width: 300px) and (max-width: 800px) {
-		display: flex;
-		justify-content: center;
-	}
-`;
-
-export const Bar = styled.p`
-	border-top: 1px solid white;
-	width: 96.5vw;
-	padding-bottom: 4px;
-`;
-
 export const Header = styled.header`
 	background-color: black;
 	width: 97.8vw;
 	height: 90px;
 	padding: 15px;
 
-	@media screen and (min-width: 300px) and (max-width: 800px) {
+	@media screen and (min-width: 300px) and (max-width: 700px) {
+		width: 96%;
+		height: 135px;
+		padding-right: 0px;
+	}
+
+	@media screen and (min-width: 701px) and (max-width: 800px) {
+		width: 96%;
 		height: 135px;
 	}
 
@@ -131,6 +119,30 @@ export const Header = styled.header`
 	}
 `;
 
+export const Bar = styled.p`
+	border-top: 1px solid white;
+	width: 96.5vw;
+	padding-bottom: 4px;
+
+	@media screen and (min-width: 300px) and (max-width: 800px) {
+		width: 96%;
+	}
+`;
+
+export const Title = styled.h1`
+	background-color: black;
+	font-family: 'Honey Script', 'Honey Script Bold', cursive;
+	color: white;
+	width: 96vw;
+	margin: -5px 0 0 0;
+
+	@media screen and (min-width: 300px) and (max-width: 800px) {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+`;
+
 export const Body = styled.main`
 	background-color: #D741A7;
 	height: 81vh;
@@ -139,6 +151,11 @@ export const Body = styled.main`
 	justify-content: center;
 
 	@media screen and (min-width: 300px) and (max-width: 800px) {
+		width: 100%;
+		padding-right: 3px;
+	}
+
+	@media screen and (min-width: 300px) and (max-width: 699px) {
 		flex-direction: column;
 	}
 
@@ -152,32 +169,33 @@ export const Body = styled.main`
 		margin-right: 200px;
 		margin-top: 160px;
 
-		@media screen and (min-width: 300px) and (max-width: 449px) {
-			margin-top: -20px;
+		@media screen and (min-width: 300px) and (max-width: 450px) {
+			width: 230px;
+			margin-top: -50px;
 			margin-bottom: 30px;
 			margin-right: auto;
 			margin-left: auto;
 		}
 
-		@media screen and (min-width: 450px) and (max-width: 700px) {
-			margin-top: -20px;
-			margin-bottom: 30px;
+		@media screen and (min-width: 451px) and (max-width: 699px) {
+			margin-top: -60px;
+			margin-bottom: -5px;
 			margin-right: auto;
 			margin-left: auto;
 		}
 
 		@media screen and (min-width: 700px) and (max-width: 799px) {
-			margin-top: -20px;
-			margin-bottom: 30px;
+			width: 350px;
+			margin-top: 165px;
 			margin-right: auto;
 			margin-left: auto;
 		}
 
 		@media screen and (min-width: 800px) and (max-width: 850px) {
-			margin-top: -20px;
-			margin-bottom: 30px;
-			margin-right: auto;
-			margin-left: auto;
+			width: 350px;
+			margin-top: 160px;
+			margin-left: 30px;
+			margin-right: 150px;
 		}
 	}
 
@@ -192,8 +210,20 @@ export const Body = styled.main`
 			cursor: pointer;
 		}
 
-		@media screen and (min-width: 450px) and (max-width: 850px) {
-			margin-top: 0px;
+		@media screen and (min-width: 300px) and (max-width: 449px) {
+			margin-top: 30px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		@media screen and (min-width: 450px) and (max-width: 699px) {
+			margin-top: 30px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		@media screen and (min-width: 700px) and (max-width: 850px) {
+			margin-top: 120px;
 			margin-right: auto;
 			margin-left: auto;
 		}
