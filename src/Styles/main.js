@@ -18,15 +18,40 @@ export const Header = styled.header`
 	height: 90px;
 	padding: 15px;
 
-	@media screen and (min-width: 300px) and (max-width: 700px) {
+	@media screen and (min-width: 300px) and (max-width: 440px) {
 		width: 96%;
 		height: 135px;
-		padding-right: 0px;
+		padding-right: 8px;
 	}
 
-	@media screen and (min-width: 701px) and (max-width: 800px) {
+	@media screen and (min-width: 441px) and (max-width: 510px) {
 		width: 96%;
 		height: 135px;
+		padding-right: 11px;
+	}
+
+	@media screen and (min-width: 511px) and (max-width: 585px) {
+		width: 96%;
+		height: 135px;
+		padding-right: 14px;
+	}
+
+	@media screen and (min-width: 586px) and (max-width: 675px) {
+		width: 96%;
+		height: 135px;
+		padding-right: 17px;
+	}
+
+	@media screen and (min-width: 676px) and (max-width: 765px) {
+		width: 96%;
+		height: 135px;
+		padding-right: 20px;
+	}
+
+	@media screen and (min-width: 766px) and (max-width: 800px) {
+		width: 96%;
+		height: 135px;
+		padding-right: 30px;
 	}
 
 	.git {
@@ -125,7 +150,7 @@ export const Bar = styled.p`
 	padding-bottom: 4px;
 
 	@media screen and (min-width: 300px) and (max-width: 800px) {
-		width: 96%;
+		width: 97%;
 	}
 `;
 
@@ -150,9 +175,14 @@ export const Body = styled.main`
 	display: flex;
 	justify-content: center;
 
-	@media screen and (min-width: 300px) and (max-width: 800px) {
+	@media screen and (min-width: 300px) and (max-width: 795px) {
 		width: 100%;
-		padding-right: 3px;
+		padding-right: 8px;
+	}
+
+	@media screen and (min-width: 796px) and (max-width: 850px) {
+		width: 100%;
+		padding-right: 11px;
 	}
 
 	@media screen and (min-width: 300px) and (max-width: 699px) {
