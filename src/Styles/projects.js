@@ -60,9 +60,22 @@ export const Project = styled.main`
 		margin-top: 20px;
 	}
 
+	.extra-margin-pg2 {
+		margin-top: 55px;
+	}
+
 	.text-adjustment1 {
 		width: 320px;
 		margin-right: 160px;
+	}
+
+	.text-adjustment-pg2 {
+		width: 500px;
+		margin-left: -100px
+	}
+
+	.extra-margin-pg2 {
+		margin-left: -105px;
 	}
 
 	.extra-margin1 {

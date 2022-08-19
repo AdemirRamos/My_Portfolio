@@ -6,7 +6,7 @@ import {Title} from '../Styles/main'
 import {Bar} from '../Styles/main'
 import {Header} from '../Styles/main'
 import {Project} from '../Styles/projects'
-import RoutesImage from '../Images/routes.png'
+import Reminder from '../Images/reminder.png'
 import HomePage from '../Images/home page.png'
 import Gallery from '../Images/gallery.png'
 import Electronic from '../Images/electronic urn.png'
@@ -18,8 +18,8 @@ export default function Projects() {
   const [icons3, set_icons3] = useState('')
   const [icons4, set_icons4] = useState('')
 
-  function routes() {
-    window.open('https://ademirramos.github.io/Routes/')
+  function reminder() {
+    window.open('https://ademirramos.github.io/Reminder/')
   }
 
   function home() {
@@ -60,47 +60,45 @@ export default function Projects() {
 
         <div>
 
-          In this project, I've used a lot of different technologies and languages.
-          I've used: HTML5, CSS3, SCSS, Tailwind CSS, JS (POO), Node JS, TS and Jest.
-          What does the this project do?
-          It just allows the user to navegate through different pages, filled with different projects, all created by me.
+          In this project, I've created a responsive page which will remind the user of three things:
+          first, to drkink water; second, rest their eyes; third, rest their legs;
+          the page will also feature a small menu
+          through which you can calculate the amount of water you have to drink per day.
 
         </div>
 
-        <section onLoad={() => set_icons('animation-start')} className="extra-margin">
+        <section onLoad={() => set_icons('animation-start')} className="extra-margin-pg2">
 
           <span className={icons}>Technologies used in this project:</span>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo." className={icons}/>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo." className={icons}/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SASS logo." className={icons}/>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript logo." className={icons}/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript logo." className={icons}/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node JS logo." className={icons}/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS logo" className={icons}/>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" alt="Jest logo." className={icons}/>
 
         </section>
 
       </Project>
 
-      <img src={RoutesImage} alt="It reads 'Routes'." className="project-image" onMouseOver={() => set_icons('icon_animation')} onMouseOut={() => set_icons('icon_pre-animation')} onClick={routes} title="Click here to open this project."/>
+      <img src={Reminder} alt="It reads 'Reminder'." className="project-image" onMouseOver={() => set_icons('icon_animation')} onMouseOut={() => set_icons('icon_pre-animation')} onClick={reminder} title="Click here to open this project."/>
 
-      <section className="parallax-section parallax"><span>Next Project: "Home Page"</span></section>
+      <section className="parallax-section parallax"><span>Next Project: "Projeto Redes Sociais"</span></section>
 
       <Project>
 
         <p></p>
 
-        <div className="text-adjustment1">
+        <div className="text-adjustment-pg2">
 
-          Another project completely done on my own.
-          Here we have a home page with a changeable background.
-          When you pass the pointer (of mouse) over the items in the left menu,
-          the background-image will change and a message will appear in the center of display (both followed by transitions).
+          Projeto desenvolvido durante o módulo 4 do curso de HTML5 e CSS3 do canal Curso Em Vídeo.
+          Nesse projeto foi feito o uso de "iframe's" para abrir outras páginas sem abrir uma nova aba no navegador
+          ou mesmo substituir o conteúdo da atual -
+          a (s) página (s) a ser (em) aberta (s) será (ão) aberta (s) dentro da atual página
+          (através do uso de "iframe's") sem que o conteúdo da aba atual seja substituído
+          pelo conteúdo da (s) nova (s) página (s) a ser (em) aberta (s). O projeto simula um "smartphone" e,
+          à esquerda, estão os botões que alteram o conteúdo disponibilizado na tela do "smartphone".
 
         </div>
 
-        <section onLoad={() => set_icons2('animation-start')} className="extra-margin1">
+        <section onLoad={() => set_icons2('animation-start')} className="extra-margin-pg2">
 
           <span className={icons2}>Technologies used in this project:</span>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo." className={icons2}/>
